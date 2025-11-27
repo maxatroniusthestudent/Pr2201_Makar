@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>3legant</title>
+    <meta
+      name="description"
+      content="Contact page for 3legant winter collection store."
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/contact.css" />
+  </head>
+
+  <body class="page">
+    <div class="topbar">
+      <div class="topbar__inner container">
+        <span class="topbar__icon" aria-hidden="true">🎫</span>
+        <span class="topbar__text"
+          >30% off storewide — Limited time!&nbsp;</span
+        >
+        <a class="topbar__link" href="#">Shop Now</a>
+        <button class="topbar__close" aria-label="Close">✕</button>
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="container header__inner">
+        <div class="header__left">
+          <input
+            id="nav-toggle"
+            type="checkbox"
+            class="header__checkbox"
+            aria-hidden="true"
+          />
+          <label
+            class="header__burger"
+            for="nav-toggle"
+            aria-label="Відкрити меню"
+          >
+            <span class="header__burger-icon"
+              ><span class="header__burger-line"></span
+            ></span>
+          </label>
+          <a href="../../index.html" class="logo header__logo">3legant.</a>
+        </div>
+
+        <nav class="nav header__nav" aria-label="Primary">
+          <ul class="nav__list" role="list">
+            <li class="nav__item">
+              <a class="nav__link" href="../../index.html">Home</a>
+            </li>
+            <li class="nav__item nav__item--dropdown">
+              <a class="nav__link" href="shop.html">Shop</a>
+            </li>
+            <li class="nav__item nav__item--dropdown">
+              <a class="nav__link" href="product.html">Product</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link nav__link--active" href="contact.html"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header__icons">
+          <button class="icon-btn" aria-label="Search">🔍</button>
+          <button class="icon-btn" aria-label="User">👤</button>
+          <a class="icon-btn icon-btn--bag" href="#" aria-label="Cart"
+            ><span>👜</span><b class="icon-btn__badge">2</b></a
+          >
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="contact" id="contact">
+        <div class="container">
+          <div class="contact__head">
+            <h1 class="contact__title">CONTACT</h1>
+            <p class="contact__subtitle">We’d love to help!</p>
+          </div>
+
+          <div class="contact__grid">
+            <form class="contact__form" action="#" method="post">
+              <label class="field">
+                <span class="field__label">Your Name</span>
+                <input
+                  class="field__input"
+                  type="text"
+                  name="name"
+                  required
+                  placeholder="Enter your name"
+                />
+              </label>
+
+              <label class="field">
+                <span class="field__label">Email</span>
+                <input
+                  class="field__input"
+                  type="email"
+                  name="email"
+                  required
+                  placeholder="Enter your email"
+                />
+              </label>
+
+              <label class="field field--area">
+                <span class="field__label">Message</span>
+                <textarea
+                  class="field__input field__input--area"
+                  name="message"
+                  rows="5"
+                  placeholder="Write your message..."
+                ></textarea>
+              </label>
+
+              <button
+                class="button button--primary contact__submit"
+                type="submit"
+              >
+                Send
+              </button>
+            </form>
+
+            <div class="contact__info">
+              <h2 class="contact__store-title">3legant Store</h2>
+              <p class="contact__text">
+                43111 Hai Trieu street,<br />
+                District 1, HCMC,<br />
+                Vietnam
+              </p>
+
+              <p class="contact__row">
+                <span class="contact__icon">📞</span>
+                <a href="tel:+8487563237">84-756-3237</a>
+              </p>
+
+              <p class="contact__row">
+                <span class="contact__icon">✉️</span>
+                <a href="mailto:contact@3legant.com">contact@3legant.com</a>
+              </p>
+
+              <div class="contact__socials">
+                <button class="icon-btn" aria-label="Instagram">📸</button>
+                <button class="icon-btn" aria-label="Facebook">📘</button>
+                <button class="icon-btn" aria-label="YouTube">▶</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="footer">
+      <div class="container footer__top">
+        <div class="footer__brand">
+          <a class="logo" href="../../index.html">3legant.</a>
+          <address class="footer__addr">
+            43111 Hai Trieu street,<br />
+            District 1, HCMC<br />
+            Vietnam
+          </address>
+          <a class="footer__tel" href="tel:+8487563237">84-756-3237</a>
+          <div class="socials">
+            <a href="#" aria-label="Instagram">📸</a>
+            <a href="#" aria-label="Facebook">📘</a>
+            <a href="#" aria-label="YouTube">▶</a>
+          </div>
+        </div>
+
+        <div class="footer__cols">
+          <div class="fcol">
+            <div class="fcol__title">Page</div>
+            <ul class="fcol__list" role="list">
+              <li><a href="../../index.html">Home</a></li>
+              <li><a href="shop.html">Shop</a></li>
+              <li><a href="product.html">Product</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="fcol">
+            <div class="fcol__title">Info</div>
+            <ul class="fcol__list" role="list">
+              <li><a href="#">Shipping Policy</a></li>
+              <li><a href="#">Return & Refund</a></li>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">FAQs</a></li>
+            </ul>
+          </div>
+
+          <div class="fcol fcol--newsletter">
+            <div class="fcol__title">Join Newsletter</div>
+            <p class="fcol__text">
+              Subscribe our newsletter to get more deals, new products and
+              promotions
+            </p>
+            <form class="newsletter" action="#" method="post">
+              <input
+                class="newsletter__input"
+                type="email"
+                placeholder="Enter your email"
+                required
+              />
+              <button class="newsletter__btn" type="submit" aria-label="Submit">
+                →
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <hr class="footer__divider" />
+
+      <div class="footer__bottom">
+        <div class="container footer__bottom-inner">
+          <p class="footer__legal">
+            Copyright © 2023 3legant. All rights reserved
+          </p>
+          <div class="footer__links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Use</a>
+          </div>
+          <div class="payments payments--bottom">
+            <img src="../img/pay-visa.svg" alt="Visa" />
+            <img src="../img/pay-amex.svg" alt="AmEx" />
+            <img src="../img/pay-master.svg" alt="Mastercard" />
+            <img src="../img/pay-stripe.svg" alt="Stripe" />
+            <img src="../img/pay-paypal.svg" alt="PayPal" />
+            <img src="../img/pay-apple.svg" alt="Apple Pay" />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <button class="to-top" type="button" aria-label="Повернутися нагору">
+      <svg
+        class="to-top__icon"
+        width="20"
+        height="20"
+        viewBox="0 0 24 24"
+        aria-hidden="true"
+      >
+        <path d="M12 4l-7 7h4v9h6v-9h4z" fill="currentColor" />
+      </svg>
+    </button>
+  </body>
+</html>

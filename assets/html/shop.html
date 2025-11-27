@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>3legant</title>
+    <meta
+      name="description"
+      content="3legant shop page. Product grid and categories."
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/shop.css" />
+  </head>
+  <body class="page">
+    <div class="topbar">
+      <div class="topbar__inner container">
+        <span class="topbar__icon" aria-hidden="true">🎫</span>
+        <span class="topbar__text"
+          >30% off storewide — Limited time!&nbsp;</span
+        >
+        <a class="topbar__link" href="#">Shop Now</a>
+        <button class="topbar__close" aria-label="Close">✕</button>
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="container header__inner">
+        <div class="header__left">
+          <input
+            id="nav-toggle"
+            type="checkbox"
+            class="header__checkbox"
+            aria-hidden="true"
+          />
+          <label
+            class="header__burger"
+            for="nav-toggle"
+            aria-label="Відкрити меню"
+          >
+            <span class="header__burger-icon"
+              ><span class="header__burger-line"></span
+            ></span>
+          </label>
+          <a href="../../index.html" class="logo header__logo">3legant.</a>
+        </div>
+
+        <nav class="nav header__nav" aria-label="Primary">
+          <ul class="nav__list" role="list">
+            <li class="nav__item">
+              <a class="nav__link" href="../../index.html">Home</a>
+            </li>
+            <li class="nav__item nav__item--dropdown">
+              <a class="nav__link nav__link--active" href="shop.html">Shop</a>
+            </li>
+            <li class="nav__item nav__item--dropdown">
+              <a class="nav__link" href="product.html">Product</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header__icons">
+          <button class="icon-btn" aria-label="Search">🔍</button>
+          <button class="icon-btn" aria-label="User">👤</button>
+          <a class="icon-btn icon-btn--bag" href="#" aria-label="Cart"
+            ><span>👜</span><b class="icon-btn__badge">2</b></a
+          >
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="shop" id="shop">
+        <div class="container shop__inner">
+          <aside class="shop__sidebar">
+            <h1 class="shop__heading">Shop</h1>
+            <nav class="shop__nav" aria-label="Categories">
+              <h2 class="shop__nav-title">Categories</h2>
+              <ul class="shop-cats" role="list">
+                <li class="shop-cats__item shop-cats__item--active">
+                  <a href="#">
+                    <span class="shop-cats__name">Puffers</span>
+                    <span class="shop-cats__sub">Puffers</span>
+                  </a>
+                </li>
+                <li class="shop-cats__item">
+                  <a href="#">
+                    <span class="shop-cats__name">Bombers</span>
+                    <span class="shop-cats__sub">Bombers</span>
+                  </a>
+                </li>
+                <li class="shop-cats__item">
+                  <a href="#">
+                    <span class="shop-cats__name">Lightweight jackets</span>
+                    <span class="shop-cats__sub">Lightweight jackets</span>
+                  </a>
+                </li>
+                <li class="shop-cats__item">
+                  <a href="#">
+                    <span class="shop-cats__name">Gilets</span>
+                    <span class="shop-cats__sub">Gilets</span>
+                  </a>
+                </li>
+                <li class="shop-cats__item">
+                  <a href="#">
+                    <span class="shop-cats__name">Coats</span>
+                    <span class="shop-cats__sub">Coats</span>
+                  </a>
+                </li>
+                <li class="shop-cats__item">
+                  <a href="#">
+                    <span class="shop-cats__name">Rainwear</span>
+                    <span class="shop-cats__sub">Rainwear</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </aside>
+
+          <div class="shop__products">
+            <div class="products-grid products-grid--shop">
+              <article class="product-card">
+                <div class="product-card__media">
+                  <span class="badge badge--hot">HOT</span>
+                  <span class="badge badge--sale">-50%</span>
+                  <img
+                    src="../img/leather-jacket.jpg"
+                    alt="Freestyle Crew Racer leather jacket"
+                  />
+                </div>
+                <div class="stars">★★★★★</div>
+                <h3 class="product-card__title">
+                  Freestyle Crew Racer leather jacket
+                </h3>
+                <p class="product-card__price">
+                  <b>$595.00</b> <s>$1000.00</s>
+                </p>
+              </article>
+
+              <article class="product-card">
+                <div class="product-card__media">
+                  <span class="badge badge--hot">HOT</span>
+                  <img
+                    src="../img/jacket-in-gray.jpg"
+                    alt="1996 Retro Nuptse Cashmere Jacket in Gray"
+                  />
+                </div>
+                <div class="stars">★★★★★</div>
+                <h3 class="product-card__title">
+                  1996 Retro Nuptse Cashmere Jacket in Gray
+                </h3>
+                <p class="product-card__price">$149.99</p>
+              </article>
+
+              <article class="product-card">
+                <div class="product-card__media">
+                  <span class="badge badge--hot">HOT</span>
+                  <img
+                    src="../img/black-boomer-humanature.jpg"
+                    alt="Chilliwack black Bomber HUMANATURE"
+                  />
+                </div>
+                <div class="stars">★★★★★</div>
+                <h3 class="product-card__title">
+                  Chilliwack black Bomber HUMANATURE
+                </h3>
+                <p class="product-card__price">$1195.99</p>
+              </article>
+
+              <article class="product-card">
+                <div class="product-card__media">
+                  <span class="badge badge--hot">HOT</span>
+                  <img
+                    src="../img/boomer-jacket.jpg"
+                    alt="96 Nuptse Dip Dye bomber Jacket"
+                  />
+                </div>
+                <div class="stars">★★★★★</div>
+                <h3 class="product-card__title">
+                  96 Nuptse Dip Dye bomber Jacket
+                </h3>
+                <p class="product-card__price">$400.99</p>
+              </article>
+
+              <article class="product-card">
+                <div class="product-card__media">
+                  <img
+                    src="../img/jacket-in-black.jpg"
+                    alt="Oversized real leather harrington jacket in black"
+                  />
+                </div>
+                <div class="stars">★★★★★</div>
+                <h3 class="product-card__title">
+                  Oversized real leather harrington jacket in black
+                </h3>
+                <p class="product-card__price">$249.99</p>
+              </article>
+
+              <article class="product-card">
+                <div class="product-card__media">
+                  <img
+                    src="../img/boomer-hoody.jpg"
+                    alt="Men's Diamond Quilted Bomber Hoody"
+                  />
+                </div>
+                <div class="stars">★★★★★</div>
+                <h3 class="product-card__title">
+                  Men's Diamond Quilted Bomber Hoody
+                </h3>
+                <p class="product-card__price">$199.95</p>
+              </article>
+
+              <article class="product-card">
+                <div class="product-card__media">
+                  <span class="badge badge--hot">HOT</span>
+                  <img
+                    src="../img/coat-black-label.jpg"
+                    alt="Paradigm Chilliwack coat Black Label"
+                  />
+                </div>
+                <div class="stars">★★★★★</div>
+                <h3 class="product-card__title">
+                  Paradigm Chilliwack coat Black Label
+                </h3>
+                <p class="product-card__price">$1495.00</p>
+              </article>
+
+              <article class="product-card">
+                <div class="product-card__media">
+                  <span class="badge badge--hot">HOT</span>
+                  <img
+                    src="../img/jacket-in-brown.jpg"
+                    alt="Men's Torrentshell 3L Rain Jacket in Brown"
+                  />
+                </div>
+                <div class="stars">★★★★★</div>
+                <h3 class="product-card__title">
+                  Men's Torrentshell 3L Rain Jacket in Brown
+                </h3>
+                <p class="product-card__price">$149.00</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="footer">
+      <div class="container footer__top">
+        <div class="footer__brand">
+          <a class="logo" href="../../index.html">3legant.</a>
+          <address class="footer__addr">
+            43111 Hai Trieu street,<br />
+            District 1, HCMC<br />
+            Vietnam
+          </address>
+          <a class="footer__tel" href="tel:+8487563237">84-756-3237</a>
+          <div class="socials">
+            <a href="#" aria-label="Instagram">📸</a>
+            <a href="#" aria-label="Facebook">📘</a>
+            <a href="#" aria-label="YouTube">▶</a>
+          </div>
+        </div>
+
+        <div class="footer__cols">
+          <div class="fcol">
+            <div class="fcol__title">Page</div>
+            <ul class="fcol__list" role="list">
+              <li><a href="../../index.html">Home</a></li>
+              <li><a href="shop.html">Shop</a></li>
+              <li><a href="product.html">Product</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="fcol">
+            <div class="fcol__title">Info</div>
+            <ul class="fcol__list" role="list">
+              <li><a href="#">Shipping Policy</a></li>
+              <li><a href="#">Return & Refund</a></li>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">FAQs</a></li>
+            </ul>
+          </div>
+
+          <div class="fcol fcol--newsletter">
+            <div class="fcol__title">Join Newsletter</div>
+            <p class="fcol__text">
+              Subscribe our newsletter to get more deals, new products and
+              promotions
+            </p>
+            <form class="newsletter" action="#" method="post">
+              <input
+                class="newsletter__input"
+                type="email"
+                placeholder="Enter your email"
+                required
+              />
+              <button class="newsletter__btn" type="submit" aria-label="Submit">
+                →
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <hr class="footer__divider" />
+
+      <div class="footer__bottom">
+        <div class="container footer__bottom-inner">
+          <p class="footer__legal">
+            Copyright © 2023 3legant. All rights reserved
+          </p>
+          <div class="footer__links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Use</a>
+          </div>
+          <div class="payments payments--bottom">
+            <img src="../img/pay-visa.svg" alt="Visa" />
+            <img src="../img/pay-amex.svg" alt="AmEx" />
+            <img src="../img/pay-master.svg" alt="Mastercard" />
+            <img src="../img/pay-stripe.svg" alt="Stripe" />
+            <img src="../img/pay-paypal.svg" alt="PayPal" />
+            <img src="../img/pay-apple.svg" alt="Apple Pay" />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <button class="to-top" type="button" aria-label="Повернутися нагору">
+      <svg
+        class="to-top__icon"
+        width="20"
+        height="20"
+        viewBox="0 0 24 24"
+        aria-hidden="true"
+      >
+        <path d="M12 4l-7 7h4v9h6v-9h4z" fill="currentColor" />
+      </svg>
+    </button>
+  </body>
+</html>
